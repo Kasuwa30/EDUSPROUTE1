@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    /* background-color:black; */
+   
+  
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    padding: 0 120px;
+    height: 100%;
+    color: white;
+    font-family: "Sen", sans-serif;
+    font-size: 20px;
+    /* background-image: url('./img/hero_1.jpg'); */
+
+}
+
+.logo-container{
+    font-size: 30px;
+    color:white
+    
+
+}
+
+.menu-container{
+    flex: 6;
+  
+    
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    justify-content: center
+
+   
+}
+.menu-list-item{
+    margin-right: 30px;
+
+} 
+
+.menu-list-item.active{
+    font-weight: bold;
+
+}
+
+.menu-list-item-button{
+    background-color: rgb(91, 85, 155);
+    font-weight: bold;
+    height: 35px;
+    width: 110px;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer; 
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in;
+
+}
+.menu-list-item-button:hover{
+    background-color: blueviolet;
+}
+
+
+
+.featured-content{
+    height: 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+}
+
+
+.featured-button{
+    background-color: rgb(91, 85, 155);
+    height: 35px;
+    width: 170px;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer; 
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in;
+}
+
+
+.featured-button:hover {
+    background-color: blueviolet;
+}
+
+
+.main_intro_container{
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    gap:30%
+  
+}
+
+
+.intro_container-title{
+    color: white;
+    margin: 10px;
+
+}
+
+
+.featured-desc{
+    width: 500px;
+    color: white;
+    padding: 20px;
+   
+}
+.form_container{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    /* justify-content: center; */
+    padding:30px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+
+label[for="name"] {
+    display: none;
+    
+}
+label[for="password"] {
+    display: none;
+}
+label[for="re-type-password"] {
+    display: none;
+}
+
+.form-example{
+ margin:20px 0px;
+   
+}
+
+.signup_button{
+    background-color: rgb(91, 85, 155);
+    height: 35px;
+    width: 90px;
+    color: white;
+    border-radius: 25px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer; 
+    font-weight: bold;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in;
+}
+
+.signup_button:hover {
+    background-color: blueviolet;
+}
+
+.course_container{
+    background-color: rgb(91, 85, 155);
+    font-size: 20px;
+    padding: 90px;
+    color: white;
+    
+}
+.course{
+text-align: center;
+
+
+   
+}
+
+.main_subjects_container{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    gap:40px;
+    align-items: center;
+}
+  
+
+
+.logo_design_course{
+    width: 300px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+.imagesforcoursesdiv{
+    display: flex; 
+    width: auto;
+     justify-content: center
+
+}
+
+.logodesignmaincontentdiv{
+   margin: 30px 20px;
+}
+
+.timeframediv{
+  padding-bottom: 10px
+}
+
+.coursetitlediv{
+    style="padding-bottom: 10px
+}
+
+.coursediscdiv{
+    padding-bottom: 10px
+}
+
+.numberstudentdesigndiv{
+    padding: 0px 30px;
+    height: 50px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    display: flex;
+    align-items: center;
+    border-top-color: lightgray;
+}
+
+.image_course{
+    transition: all 1s ease-in-out;
+    width: 300px;
+    object-fit: contain;
+  /* margin: 100px; */
+   gap: 10px;
+}
+.coursediscdiv{
+    color: gray;
+    padding:  6px;
+}
+
+.coursetitlediv{
+    color:  rgb(91, 85, 155);
+    margin: 6px;
+}
+
+.timeframediv{
+    color: gray;
+    margin: 6px;
+}
+
+.numberstudentdesigndiv{
+    color: gray;
+
+}
+
+.programme_container{
+ background-color: brown;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+
+.our_programme{
+    font-size: 70px;
+    
+
+}
+
+.program_desc{
+    text-wrap: wrap;
+
+}
+.course_desc_1{
+    line-height: 25px;
+}
+
+.Education{
+display: flex;
+
+}
+.program-sub-title-header {
+    justify-content: center;
+    display: flex;
+    line-height: 30px;
+}
+.main_programme_container{
+    height: 100vh;
+}
+.program-title{
+    text-align: center;
+}
+.program-sub-title{
+   text-align: center;
+   padding: 20px 0px;
+   width: 70vh;
+}
+.excellent-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+.execellent-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.excellent-right{
+    width: 50%;
+}
+.image_education{
+    width:600px;
+    height: 600px;
+}
+.execellent-text{
+    font-size: 30px;
+}
+.excellent-sub{
+    padding-bottom: 15px;
+    color: grey;
+    line-height: 30px;
+}
+.Yearly-graduated{
+    padding: 20px 0px;
+    color: rgb(91, 85, 155);
+}
+.universities{
+    color: rgb(91, 85, 155);
+}
+.testimonies{
+    height: 60vh;
+    background-color: gray;
+    padding: 0px 100px;
+}
+.testimonies-image-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.testimonies-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.person-container{
+    padding: 20px;
+}
+.person{
+    text-align: center;
+    color: #fff;
+}
+.description-container{
+    display: flex;
+    justify-content: center;
+}
+.description{
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    line-height: 30px;
+}
+.footer{
+    height: 50vh;
+    margin: 100px 100px;
+}
+.footer-container{
+    display: flex;
+    gap:100px
+}
+.footer-left{
+    width: 30%;
+}
+.footer-right{
+    width: 70%;
+     cursor: pointer;
+}
+.footer-description{
+    line-height: 30px;
+    color: grey;
+}
+.about-school-header{
+    padding-bottom: 30px;
+    display: flex;
+    gap:263px
+}
+.footer-links{
+    list-style: none;
+    padding: 0px;
+}
+.link-header{
+    padding-bottom: 40px;
+}
+.footer-link-menu{
+    padding-bottom: 20px;
+    color: rgb(91, 85, 155);
+}
+.copy-right{
+    text-align: center;
+}
+.copy-right-container{
+    margin-top: 30px;
+}
